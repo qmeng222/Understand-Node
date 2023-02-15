@@ -14,3 +14,4 @@
 - primitive (by value): a type of data that represnets a single value (like a number or a string), in other words, not an object (by reference).
 - IIFE: Immediately Invoked Function Expressions
 - scope: where in code you have access to a particular variable or function.
+- JSON: JavaSCript object notation (string)
