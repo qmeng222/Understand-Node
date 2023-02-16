@@ -15,3 +15,4 @@
 - IIFE: Immediately Invoked Function Expressions
 - scope: where in code you have access to a particular variable or function.
 - JSON: JavaSCript object notation (string)
+- revealing module pattern: exposing only properties/methods you want via an returned object (to protect code within modules)
