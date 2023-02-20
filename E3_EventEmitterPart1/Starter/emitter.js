@@ -9,6 +9,8 @@ emitter.events = {
 	onFileSave: [listener1, listener2, ...]
 }
 */
+
+// on --> addListener:
 Emitter.prototype.on = function (type, listener) {
   this.events[type] = this.events[type] || [];
   this.events[type].push(listener);

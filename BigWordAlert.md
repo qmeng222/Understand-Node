@@ -18,3 +18,4 @@
 - revealing module pattern: exposing only properties/methods you want via an returned object (to protect code within modules)
 - mutate: to change something (eg: addinga method or property to an obj means you've mutated the obj)
 - event listener: function(s) that respond to an event
+- maigc string: a string that has some special meaning in our code. This is bad, because it makes it easy for a typo to cause a bug, and hard for tools (e.g. VS Code) to help us find it.
