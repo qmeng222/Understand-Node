@@ -3,6 +3,7 @@ var EventEmitter = require("events");
 // get the library:
 var util = require("util");
 
+// add a property to Greetr:
 function Greetr() {
   this.greeting = "Hello world!";
 }
