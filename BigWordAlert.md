@@ -20,3 +20,12 @@
 - event listener: function(s) that respond to an event
 - maigc string: a string that has some special meaning in our code. This is bad, because it makes it easy for a typo to cause a bug, and hard for tools (e.g. VS Code) to help us find it.
 - syntactic sugar: a feature that only changes how you type something, but nothing changes under the hood.
+- synchronous: one process executing at a time. JavaScript is synchronous (only one line of code executing at a time).
+- asynchronous: more than one process is running simultaneously. Node does things asynchronously. V8 does not.
+- non-blocking: doing other things without stopping the current running.
+- callback: a function passed as a argument to another function which will be called/invoked at a later time; the purpose of a callback is to allow a function to operate on data that is not immediately available.
+- buffer: a temporary holding spot for data being moved from one placeto another. Intentionally limited in size. eg: gathering enough data for it to continue watching/processing the video.
+- stream: a sequence of data made available over time. eg: when you stream a movie, you are not downloading the movie, instead you watch the movie as it comes.
+- binary data: data stored in 0s and 1s.
+- character encoding: how chars are stored in binary. eg: "h" --> 104 --> 01101000 (in UTF-8)
+-
