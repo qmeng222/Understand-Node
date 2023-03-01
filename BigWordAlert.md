@@ -28,4 +28,4 @@
 - stream: a sequence of data made available over time. eg: when you stream a movie, you are not downloading the movie, instead you watch the movie as it comes.
 - binary data: data stored in 0s and 1s.
 - character encoding: how chars are stored in binary. eg: "h" --> 104 --> 01101000 (in UTF-8)
--
+- byte = 8 bits (8 zeros and ones)
