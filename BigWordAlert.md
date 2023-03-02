@@ -27,8 +27,10 @@
 - buffer: a temporary holding spot for data being moved from one placeto another. Intentionally limited in size. eg: gathering enough data for it to continue watching/processing the video.
 - stream: a sequence of data made available over time. eg: when you stream a movie, you are not downloading the movie, instead you watch the movie as it comes.
 - chunk: a piece of data being sent through a stream. Data is split in chunks and streamed.
+- pipe: connecting two streams, pipe from a Readable stream to a Writable stream.
 - binary data: data stored in 0s and 1s.
 - character encoding: how chars are stored in binary. eg: "h" --> 104 --> 01101000 (in UTF-8)
 - byte = 8 bits (8 zeros and ones)
 - error-first callback: take an error obj as the first parameter, this first parameter will be null if no error.
 - abstract (base) class: a type of constructor that you never work directly with, but inherit from. We create new custom objects that inherit from the abstract base class.
+- method chaining: a method returns an object, so we can keep calling more methods on the returned object.
