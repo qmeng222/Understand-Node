@@ -34,3 +34,6 @@
 - error-first callback: take an error obj as the first parameter, this first parameter will be null if no error.
 - abstract (base) class: a type of constructor that you never work directly with, but inherit from. We create new custom objects that inherit from the abstract base class.
 - method chaining: a method returns an object, so we can keep calling more methods on the returned object.
+- protocol: a set of rules client(browser) and server agree to use when communicating.
+- IP (internet protocol):
+- TCP (transmission control protocol): TCP is the protocol that takes the information and split it into pieces (packets), and send those packets one at a time through the socket from computer to computer.
