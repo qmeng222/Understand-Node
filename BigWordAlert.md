@@ -37,3 +37,20 @@
 - protocol: a set of rules client(browser) and server agree to use when communicating.
 - IP (internet protocol):
 - TCP (transmission control protocol): TCP is the protocol that takes the information and split it into pieces (packets), and send those packets one at a time through the socket from computer to computer.
+- HTTP (hypertext transfer protocol): defining data being transferred via TCP/IP (just like constructiong a business letter following some well accepted format).
+  ```
+             http req
+  browser --------------> web server
+          <--------------
+             http res
+  ```
+- Port: when a program (eg: Node, Email, FTP)is setup to receive packets from a particular port, it's said that program is "listening" to that port.
+  ```
+  socket address 78.132.160.4.443
+  https://www.google.com
+                             request
+                 browser ---------------> web server (78.132.160.4):
+                                            443 NodeJS
+                                            123 Email
+                                            222 FTP
+  ```
