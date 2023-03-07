@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link href="assets/style.css" type="text/css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+    <form method="POST" action="/person">
+      <!-- id attribute is used to uniquely identify the input ELEMENT -->
+      <!-- name attribute is used to define the NAME OF THE FORM DATA that gets sent to the server -->
+      First name: <input type="text" id="firstname" name="firstname" /><br />
+      Last name: <input type="text" id="lastname" name="lastname" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <!-- POST to the following url with the following contentType: -->
+    <script>
+      $.ajax({
+        type: "POST",
+        url: "/personjson",
+        data: JSON.stringify({ firstname: "Jane", lastname: "Doe" }),
+        dataType: "json",
+        contentType: "application/json",
+      });
+    </script>
+  </body>
+</html>
