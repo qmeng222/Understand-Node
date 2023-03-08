@@ -54,3 +54,23 @@
                                             123 Email
                                             222 FTP
   ```
+- API (application programming interface): a set of tools for building an application. On the web, the tools are usually made available via a set of URLs which accept and send data via HTTP and TCP/IP.
+- endpoint: url in a web API
+- serialize: translate an object into a format that can be stored and transferred (JSON, CSV, ...)
+- deserialize: convert the format back into an object
+- routing: mapping HTTP request to content (whether actual files that exist on the server or not).
+- package management system: software that automates installing and upating packages (deals with what version you have or need, and manages dependencies.)
+- package: code that are ready to be used.
+- dependency: code that another set of code depends on to function. eg: if you use some code in you app. your app depends on it.
+- HTTP method: specifies the type of action the request is going to make (eg: GET, POST, DELETE, ...)
+- middleware: a function that processes the HTTP request and response objects in a web application, and can modify the request or response or call the next middleware function in the stack.
+- static file: files that are served directly to clients without being processed by the server.
+  - For example, when a server receives a request for a static file such as an image or CSS file, it simply reads the file from disk and sends it to the client. There is no need for the server to modify the content of the file or execute any dynamic logic before serving it.
+  - In contrast, when a server receives a request for a dynamic resource such as a webpage or API endpoint, it needs to execute code to generate a response based on the client's request.
+- template engine: think of a template engine as a chef's recipe book. Just like a recipe book provides a template for how to make a dish, a template engine provides a template for how to render dynamic content on a web page. The chef can customize the recipe with specific ingredients to make it unique, just like how a template engine allows developers to inject dynamic data and logic into the template to create a unique web page for each user.
+  - Express Router passes data to the template engine, typically through a route handler.
+  - Template engine processes the data and generates an HTML document.
+  - The rendered template is returned to the client via an HTTP response.
+- REST (Representational State Transfer): an architectural style for building APIs (so when we look at the URL, we understand what it's doing).
+- SQL (Structured Query Language): a type of relational database.
+- NoSQL (Not Only SQL): a type of non-relational database that enables flexible data storage and retrieval for unstructured data. eg: MongoDB
