@@ -73,4 +73,10 @@
   - The rendered template is returned to the client via an HTTP response.
 - REST (Representational State Transfer): an architectural style for building APIs (so when we look at the URL, we understand what it's doing).
 - SQL (Structured Query Language): a type of relational database.
-- NoSQL (Not Only SQL): a type of non-relational database that enables flexible data storage and retrieval for unstructured data. eg: MongoDB
+- NoSQL (Not Only SQL): a type of non-relational database that enables flexible data storage and retrieval for unstructured data. eg: MongoDB.
+- stack (one builds upon another): the combination of all technologies used to build a software.
+- MEAN (MongoDB, Express, AngularJS, and NodeJS) stack: all JavaScript-based
+  - [x] MongoDB (pantry): The pantry in the kitchen is like a database where all the ingredients are stored. In the same way, MongoDB stores and retrieves data.
+  - [x] Express (waiter): The waiter takes the order from the customer and communicates it to the kitchen (the database layer that interacts with the database, such as querying, inserting, updating, and deleting data). In the same way, Express receives requests from the client and communicates with the NodeJS server.
+  - [x] AngularJS (tablet menu): The tablet menu allows the customers to see what food is available, and select what they want to order. In the same way, AngularJS presents the data to the user in a way that is easy to understand and navigate (UI in the browser).
+  - [x] NodeJS (chef): The chef prepares the food and sends it to the customer. In the same way, NodeJS handles the HTTP req & res, retrieves the data from MongoDB (pantry), and sends it to the client via Express (waiter).
