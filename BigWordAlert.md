@@ -80,3 +80,22 @@
   - [x] Express (waiter): The waiter takes the order from the customer and communicates it to the kitchen (the database layer that interacts with the database, such as querying, inserting, updating, and deleting data). In the same way, Express receives requests from the client and communicates with the NodeJS server.
   - [x] AngularJS (tablet menu): The tablet menu allows the customers to see what food is available, and select what they want to order. In the same way, AngularJS presents the data to the user in a way that is easy to understand and navigate (UI in the browser).
   - [x] NodeJS (chef): The chef prepares the food and sends it to the customer. In the same way, NodeJS handles the HTTP req & res, retrieves the data from MongoDB (pantry), and sends it to the client via Express (waiter).
+- DOM (document object modal): a tree-like structure that represents the HTML elements of a web page
+
+  ```
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="lib/jquery.js"></script>
+      <link rel="stylesheet" href="styles.css" />
+      <title>Document</title>
+    </head>
+
+    <body></body>
+  </html>
+  ```
+
+- AngularJS: AngularJS is the receipe that takes basic ingredients like HTML, CSS, and JavaScript and creates a gourmet dish (web application).
