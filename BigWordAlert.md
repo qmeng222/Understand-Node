@@ -98,4 +98,6 @@
   </html>
   ```
 
-- AngularJS: AngularJS is the receipe that takes basic ingredients like HTML, CSS, and JavaScript and creates a gourmet dish (web application).
+- AngularJS: AngularJS is the receipe that takes basic ingredients like HTML, CSS, and JavaScript and creates a gourmet dish (web application). Angular has two-way data binding.
+  - [x] React is best for building smaller, simpler applications with less structure.
+  - [x] Angular is better suited for larger, more complex applications with a more structured and opinionated architecture.

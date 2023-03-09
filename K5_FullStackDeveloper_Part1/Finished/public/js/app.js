@@ -1,8 +1,8 @@
-angular.module('TestApp', []);
+// JS on the client:
+angular.module("TestApp", []);
 
-angular.module('TestApp')
-	.controller('MainController', ctrlFunc);
-	
+angular.module("TestApp").controller("MainController", ctrlFunc);
+
 function ctrlFunc() {
-	this.people = clientPeople;
+  this.people = clientPeople;
 }
