@@ -101,3 +101,4 @@
 - AngularJS: AngularJS is the receipe that takes basic ingredients like HTML, CSS, and JavaScript and creates a gourmet dish (web application). Angular has two-way data binding.
   - [x] React is best for building smaller, simpler applications with less structure.
   - [x] Angular is better suited for larger, more complex applications with a more structured and opinionated architecture.
+- body-parser: body-parser is a middleware that helps with parsing request body data in a server application. When a client sends a request to a server, it usually includes data in the form of a request body. The body-parser module helps parse this request body data and make it available as a JavaScript object in the `req.body` property of the request object, so that it can be easily accessed and used by the server code.
