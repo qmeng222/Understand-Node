@@ -63,7 +63,7 @@
 - package: code that are ready to be used.
 - dependency: code that another set of code depends on to function. eg: if you use some code in you app. your app depends on it.
 - HTTP method: specifies the type of action the request is going to make (eg: GET, POST, DELETE, ...)
-- middleware: a function that processes the HTTP request and response objects in a web application, and can modify the request or response or call the next middleware function in the stack.
+- middleware: an express functions that can modify the request and response objects, as well as call the next middleware function in the stack.
 - static file: files that are served directly to clients without being processed by the server.
   - For example, when a server receives a request for a static file such as an image or CSS file, it simply reads the file from disk and sends it to the client. There is no need for the server to modify the content of the file or execute any dynamic logic before serving it.
   - In contrast, when a server receives a request for a dynamic resource such as a webpage or API endpoint, it needs to execute code to generate a response based on the client's request.
